@@ -107,7 +107,7 @@ def run_ocr(pdf_bytes: bytes, filename: str, title: str | None) -> tuple[bytes, 
 def main():
     st.set_page_config(page_title="Mistral OCR – Hybrid DOCX", layout="centered")
 
-    st.title("📄 Mistral OCR – Hybrid DOCX Generator")
+    st.title("📄Suvichaar OCR-Intelligence")
     st.write(
         "Upload a PDF to convert it to Markdown and DOCX. "
         "Uses **hybrid approach**: Pandoc for math formulas + python-docx for better table formatting."
