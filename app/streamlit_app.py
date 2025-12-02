@@ -108,9 +108,6 @@ def main():
     st.set_page_config(page_title="Mistral OCR – Hybrid DOCX", layout="centered")
 
     st.title("📄Suvichaar OCR-Intelligence")
-    st.write(
-       "Upload your documents (in pdf)"
-    )
 
     # Check if secrets are configured
     try:
