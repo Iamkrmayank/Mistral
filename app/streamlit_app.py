@@ -109,8 +109,7 @@ def main():
 
     st.title("📄Suvichaar OCR-Intelligence")
     st.write(
-        "Upload a PDF to convert it to Markdown and DOCX. "
-        "Uses **hybrid approach**: Pandoc for math formulas + python-docx for better table formatting."
+       "Upload your documents (in pdf)"
     )
 
     # Check if secrets are configured
